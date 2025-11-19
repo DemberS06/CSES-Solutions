@@ -1,7 +1,9 @@
 // generate_readme.cpp
-// Generador de README para CSES-Solutions (cuenta archivos .cpp por carpeta y genera badges)
-#include<bits/stdc++.h>
+// Generador de README para CSES-Solutions
+// Produce una tabla Markdown con links a las carpetas del repo y badges de progreso.
 
+#include <bits/stdc++.h>
+#include <filesystem>
 namespace fs = std::filesystem;
 using namespace std;
 
@@ -25,7 +27,7 @@ string url_encode(const string &s) {
     return o.str();
 }
 
-std::string badge_color(int solved, int total) {
+string badge_color(int solved, int total) {
     if (total == 0) return "lightgrey";
     if (solved >= total) return "brightgreen";
     double r = double(solved) / double(total);
@@ -54,6 +56,10 @@ int count_sources_in_folder(const fs::path &folder) {
 }
 
 int main() {
+    // Ajusta esto a tu repo / rama si es necesario:
+    const string repo_url = "https://github.com/DemberS06/CSES-Solutions";
+    const string branch = "main";
+
     vector<string> categories = {
         "Introductory_Problems",
         "Sorting_and_Searching",
@@ -116,6 +122,7 @@ int main() {
     out << "# CSES Solutions\n\n";
     out << "This repository contains my accepted solutions to the **CSES Problem Set**, written in **C++**.\n\n";
 
+    // Badge total
     {
         ostringstream badge;
         badge << "https://img.shields.io/badge/Solutions-";
@@ -126,21 +133,30 @@ int main() {
 
     out << "---\n\n";
     out << "## Progress by Category\n\n";
-    out << "<p align=\"center\">\n\n";
+
+    // Tabla Markdown con enlaces a carpetas y badges (los badges también apuntan a la carpeta)
+    out << "| Category | Progress |\n";
+    out << "|---|---:|\n";
 
     for (auto &cat : categories) {
         int s = solved[cat];
         int t = totals[cat];
         string color = badge_color(s, t);
-        string left = url_encode(cat);
-        ostringstream badge;
-        badge << "https://img.shields.io/badge/" << left << "-" << s << "%2F" << t << "-" << color;
-        out << "  <img src=\"" << badge.str() << "\" />\n";
+
+        // link a la carpeta en GitHub (rama configurable)
+        string folder_link = repo_url + "/tree/" + branch + "/" + url_encode(cat);
+
+        // badge label (codificado)
+        string badge_label = url_encode(cat + "-" + to_string(s) + "%2F" + to_string(t));
+        ostringstream badge_url;
+        badge_url << "https://img.shields.io/badge/" << badge_label << "-" << color << "?style=flat-square";
+
+        // Fila: nombre linkeado y badge linkeado (la badge también es un enlace al folder)
+        out << "| [" << cat << "](" << folder_link << ") "
+            << "| [![](" << badge_url.str() << ")](" << folder_link << ") |\n";
     }
 
-    out << "\n</p>\n\n";
-    out << "---\n\n";
-
+    out << "\n---\n\n";
     out << "## About This Repository\n\n";
     out << "All solutions are implemented in **C++** using modern competitive programming techniques.\n\n";
 
