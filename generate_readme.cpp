@@ -143,15 +143,13 @@ int main() {
         int t = totals[cat];
         string color = badge_color(s, t);
 
-        // link a la carpeta en GitHub (rama configurable)
         string folder_link = repo_url + "/tree/" + branch + "/" + url_encode(cat);
 
-        // badge label (codificado)
-        string badge_label = url_encode(cat + "-" + to_string(s) + "%2F" + to_string(t));
         ostringstream badge_url;
-        badge_url << "https://img.shields.io/badge/" << badge_label << "-" << color << "?style=flat-square";
+        badge_url << "https://img.shields.io/badge/"
+                << url_encode(cat) << "-" << s << "/" << t << "-" << color
+                << "?style=flat-square";
 
-        // Fila: nombre linkeado y badge linkeado (la badge también es un enlace al folder)
         out << "| [" << cat << "](" << folder_link << ") "
             << "| [![](" << badge_url.str() << ")](" << folder_link << ") |\n";
     }
