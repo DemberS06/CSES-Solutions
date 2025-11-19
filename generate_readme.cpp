@@ -126,7 +126,7 @@ int main() {
     {
         ostringstream badge;
         badge << "https://img.shields.io/badge/Solutions-";
-        badge << url_encode(to_string(total_solved) + "%2F" + to_string(total_problems));
+        badge << url_encode(to_string(total_solved) + "/" + to_string(total_problems));
         badge << "-blue?style=for-the-badge";
         out << "<p align=\"center\">\n  <img src=\"" << badge.str() << "\" />\n</p>\n\n";
     }

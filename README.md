@@ -3,7 +3,7 @@
 This repository contains my accepted solutions to the **CSES Problem Set**, written in **C++**.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Solutions-265%252F400-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Solutions-265%2F400-blue?style=for-the-badge" />
 </p>
 
 ---
