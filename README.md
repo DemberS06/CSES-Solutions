@@ -3,7 +3,7 @@
 This repository contains my accepted solutions to the **CSES Problem Set**, written in **C++**.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Solutions-333%2F400-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Solutions-337%2F400-blue?style=for-the-badge" />
 </p>
 
 ---
@@ -21,7 +21,7 @@ This repository contains my accepted solutions to the **CSES Problem Set**, writ
 | [Mathematics](https://github.com/DemberS06/CSES-Solutions/tree/main/Mathematics) | [![](https://img.shields.io/badge/Mathematics-37/37-brightgreen?style=flat-square)](https://github.com/DemberS06/CSES-Solutions/tree/main/Mathematics) |
 | [String_Algorithms](https://github.com/DemberS06/CSES-Solutions/tree/main/String_Algorithms) | [![](https://img.shields.io/badge/String_Algorithms-15/21-yellow?style=flat-square)](https://github.com/DemberS06/CSES-Solutions/tree/main/String_Algorithms) |
 | [Geometry](https://github.com/DemberS06/CSES-Solutions/tree/main/Geometry) | [![](https://img.shields.io/badge/Geometry-16/16-brightgreen?style=flat-square)](https://github.com/DemberS06/CSES-Solutions/tree/main/Geometry) |
-| [Advanced_Techniques](https://github.com/DemberS06/CSES-Solutions/tree/main/Advanced_Techniques) | [![](https://img.shields.io/badge/Advanced_Techniques-9/25-orange?style=flat-square)](https://github.com/DemberS06/CSES-Solutions/tree/main/Advanced_Techniques) |
+| [Advanced_Techniques](https://github.com/DemberS06/CSES-Solutions/tree/main/Advanced_Techniques) | [![](https://img.shields.io/badge/Advanced_Techniques-13/25-yellow?style=flat-square)](https://github.com/DemberS06/CSES-Solutions/tree/main/Advanced_Techniques) |
 | [Sliding_Window_Problems](https://github.com/DemberS06/CSES-Solutions/tree/main/Sliding_Window_Problems) | [![](https://img.shields.io/badge/Sliding_Window_Problems-11/11-brightgreen?style=flat-square)](https://github.com/DemberS06/CSES-Solutions/tree/main/Sliding_Window_Problems) |
 | [Interactive_Problems](https://github.com/DemberS06/CSES-Solutions/tree/main/Interactive_Problems) | [![](https://img.shields.io/badge/Interactive_Problems-6/6-brightgreen?style=flat-square)](https://github.com/DemberS06/CSES-Solutions/tree/main/Interactive_Problems) |
 | [Bitwise_Operations](https://github.com/DemberS06/CSES-Solutions/tree/main/Bitwise_Operations) | [![](https://img.shields.io/badge/Bitwise_Operations-11/11-brightgreen?style=flat-square)](https://github.com/DemberS06/CSES-Solutions/tree/main/Bitwise_Operations) |
