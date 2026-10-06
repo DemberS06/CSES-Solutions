@@ -3,7 +3,7 @@
 This repository contains my accepted solutions to the **CSES Problem Set**, written in **C++**.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Solutions-338%2F400-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Solutions-344%2F400-blue?style=for-the-badge" />
 </p>
 
 ---
@@ -19,7 +19,7 @@ This repository contains my accepted solutions to the **CSES Problem Set**, writ
 | [Range_Queries](https://github.com/DemberS06/CSES-Solutions/tree/main/Range_Queries) | [![](https://img.shields.io/badge/Range_Queries-25/25-brightgreen?style=flat-square)](https://github.com/DemberS06/CSES-Solutions/tree/main/Range_Queries) |
 | [Tree_Algorithms](https://github.com/DemberS06/CSES-Solutions/tree/main/Tree_Algorithms) | [![](https://img.shields.io/badge/Tree_Algorithms-16/16-brightgreen?style=flat-square)](https://github.com/DemberS06/CSES-Solutions/tree/main/Tree_Algorithms) |
 | [Mathematics](https://github.com/DemberS06/CSES-Solutions/tree/main/Mathematics) | [![](https://img.shields.io/badge/Mathematics-37/37-brightgreen?style=flat-square)](https://github.com/DemberS06/CSES-Solutions/tree/main/Mathematics) |
-| [String_Algorithms](https://github.com/DemberS06/CSES-Solutions/tree/main/String_Algorithms) | [![](https://img.shields.io/badge/String_Algorithms-15/21-yellow?style=flat-square)](https://github.com/DemberS06/CSES-Solutions/tree/main/String_Algorithms) |
+| [String_Algorithms](https://github.com/DemberS06/CSES-Solutions/tree/main/String_Algorithms) | [![](https://img.shields.io/badge/String_Algorithms-21/21-brightgreen?style=flat-square)](https://github.com/DemberS06/CSES-Solutions/tree/main/String_Algorithms) |
 | [Geometry](https://github.com/DemberS06/CSES-Solutions/tree/main/Geometry) | [![](https://img.shields.io/badge/Geometry-16/16-brightgreen?style=flat-square)](https://github.com/DemberS06/CSES-Solutions/tree/main/Geometry) |
 | [Advanced_Techniques](https://github.com/DemberS06/CSES-Solutions/tree/main/Advanced_Techniques) | [![](https://img.shields.io/badge/Advanced_Techniques-14/25-yellow?style=flat-square)](https://github.com/DemberS06/CSES-Solutions/tree/main/Advanced_Techniques) |
 | [Sliding_Window_Problems](https://github.com/DemberS06/CSES-Solutions/tree/main/Sliding_Window_Problems) | [![](https://img.shields.io/badge/Sliding_Window_Problems-11/11-brightgreen?style=flat-square)](https://github.com/DemberS06/CSES-Solutions/tree/main/Sliding_Window_Problems) |
