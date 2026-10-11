@@ -128,8 +128,11 @@ int main() {
         badge << "https://img.shields.io/badge/Solutions-";
         badge << url_encode(to_string(total_solved) + "/" + to_string(total_problems));
         badge << "-blue?style=for-the-badge";
-        out << "<p align=\"center\">\n  <img src=\"" << badge.str() << "\" />\n</p>\n\n";
+        out << "<p align=\"center\">\n  <img src=\"" << badge.str() << "\" alt=\"Solutions " << total_solved << "/" << total_problems << "\" />\n</p>\n\n";
     }
+
+    // Total en texto, por si la imagen no carga
+    out << "**Solved: " << total_solved << " / " << total_problems << "**\n\n";
 
     out << "---\n\n";
     out << "## Progress by Category\n\n";

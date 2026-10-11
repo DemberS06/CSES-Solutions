@@ -3,8 +3,10 @@
 This repository contains my accepted solutions to the **CSES Problem Set**, written in **C++**.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Solutions-374%2F400-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Solutions-374%2F400-blue?style=for-the-badge" alt="Solutions 374/400" />
 </p>
+
+**Solved: 374 / 400**
 
 ---
 
